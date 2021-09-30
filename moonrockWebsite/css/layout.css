@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url("images/moonSurface.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Pacifico';
+    color: darkslategrey;
+    background-color: rgb(128, 128, 140); 
+    box-shadow: 0px 3px 10px; 
+}
+
+nav {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    min-width: 50em;
+    position: absolute;
+    top: 27px;
+    right: 0%;
+    border: 3px;
+    border-style: outset;
+    border-color: rgb(100, 100, 112);
+}
+
+main {
+    min-height: 100rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Kanit';
+    margin-top: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+article {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    min-width: 50em;
+    text-align: center;
+    word-spacing: 10px;
+    border-radius: 20px;
+    background-color: slategray;
+    box-shadow: 0px 3px 10px; 
+}
+
+footer {
+    padding: 10px;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(rgb(100, 100, 112), slategray);
+    min-height: 100px;
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+article .aboutPage {
+    padding: 60px;
+}
+
+
+.article1 {
+    font-size: 25px;
+    text-shadow: 3px 3px 5px #404040;
+    background-color: rgb(100, 100, 112);
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    /* min-height: 400px; */
+    text-align: center;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.article2 {
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #404040;
+    background-color: slategray;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    /* min-height: 400px; */
+    text-align: center;
+    word-spacing: 25px;
+}
+
+.article3 {
+    font-size: 25px;
+    text-shadow: 3px 3px 5px #404040;
+    background-color: rgb(100, 100, 112);
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    /* min-height: 400px; */
+    text-align: center;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navBar {
+    background-color: rgb(128, 128, 140);
+    overflow: hidden;
+}
+
+.navBar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.navBar a:hover {
+    background-color: rgb(181, 181, 181);
+    color: black;
+}
+
+.navBar a.currentPage {
+    background-color: rgb(100, 100, 112);
+    color: white;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+/* #floatLeft{
+    float: left;
+} */
+
+#noUnderline {
+    text-decoration: none;
+    color: black;
+}
+#alignLeft {
+    text-align: left;
+}
+
+
+#largeFont {
+    font-size: large;
+}
+
+#excessPadding {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#a1img {
+    margin: 10px;
+}
+
+#a1txt {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
