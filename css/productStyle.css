@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(224, 224, 235);
+}
+
+header {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Pacifico';
+    color: darkslategrey;
+    background-color: rgb(165, 165, 185); 
+}
+
+nav {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    min-width: 50em;
+    position: absolute;
+    top: 27px;
+    right: 0%;
+    border: 3px;
+    border-style: outset;
+    border-color: rgb(145, 145, 165);
+}
+
+main {
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit';
+}
+
+article {
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 50em;
+    text-align: center;
+    word-spacing: 10px;
+    background-color: rgb(224, 224, 235);
+}
+
+footer {
+    padding: 10px;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+    background-color: rgb(165, 165, 185);
+    min-height: 100px;
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+article .productList {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar {
+    background-color: rgb(165, 165, 185);
+    overflow: hidden;
+}
+
+.navBar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.navBar a:hover {
+    background-color: rgb(200, 200, 220);
+    color: black;
+}
+
+.navBar a.currentPage {
+    background-color: rgb(125, 125, 145);
+    color: white;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.products img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #floatLeft{
+    float: left;
+} */
