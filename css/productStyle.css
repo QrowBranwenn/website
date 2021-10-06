@@ -33,12 +33,13 @@ main {
     display: flex;
     flex-direction: column;
     font-family: 'Kanit';
+    margin: auto;
 }
 
 article {
-    margin-left: 150px;
-    margin-right: 150px;
-    min-width: 50em;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* min-width: 50em; */
     text-align: center;
     word-spacing: 10px;
     background-color: rgb(224, 224, 235);
