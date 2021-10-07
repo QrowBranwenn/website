@@ -31,12 +31,13 @@ nav {
     border: 3px;
     border-style: outset;
     border-color: rgb(145, 145, 165);
+    font-family: 'Kanit';
 }
 
 main {
     min-height: 100rem;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     font-family: 'Kanit';
     margin-top: 400px;
     margin-left: 25px;
@@ -70,6 +71,7 @@ footer {
 img {
     border-radius: 30px;
 }
+
 
 .article1 {
     font-size: 25px;
@@ -113,6 +115,8 @@ img {
     border-radius: 20px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    position: relative;
+    overflow: hidden;
 }
 
 .navBar {
@@ -143,10 +147,6 @@ img {
 .alignLeft {
     text-align: left;
 }
-
-/* #floatLeft{
-    float: left;
-} */
 
 #noUnderline {
     text-decoration: none;
